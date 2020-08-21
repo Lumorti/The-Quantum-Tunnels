@@ -21,9 +21,6 @@ But don't worry, you can play along at home using a simulator!
  - each possible measured state has a corresponding ASCII output (stored in "outputs.json")
 
 ![Pauli the Excluder](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/pauli.png?raw=true)
-<!--![The Unitary Operator](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/operator.png?raw=true)-->
-<!--![The Infinite Potential Well](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/well.png?raw=true)-->
-<!--![The Entangler](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/entang.png?raw=true)-->
 
 ### Dependencies
 
@@ -64,3 +61,11 @@ Bonus points if you speedrun getting all of these.
  - [HARD] return the bartender's missing chain
  - [HARD] reach the true end
  - [HARD] complete a run with each item (over multiple runs)
+
+### More Screenshots
+
+![The Unitary Operator](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/unit.png?raw=true)
+
+![The Infinite Potential Well](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/well.png?raw=true)
+
+![The Entangler](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/entang.png?raw=true)
