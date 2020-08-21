@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 # Load the main quantum circuit representing game logic (constant)
-import qiskit
+import qiskit # pip3 install qiskit
 gameCircuit = qiskit.QuantumCircuit.from_qasm_file("game.qasm")
 
 # Load the mapping of states to outputs (constant)

@@ -5,6 +5,7 @@ A dungeon crawler designed for a quantum computer as a series of 17000 quantum g
 But don't worry, you can play along at home using a simulator!
 
 ### Features
+
  - 16 different possible encounters (some friendly, some not)
  - 7 different items with unique effects
  - multiple endings: some good, some bad, one true
@@ -13,20 +14,34 @@ But don't worry, you can play along at home using a simulator!
  - quantum puns and weird characters
 
 ### How It Works
+
  - the game is represented by a 22-qubit quantum state
  - each turn you can change the first 3 qubits to choose your action (handled by "run.py")
  - the state is then put through the quantum circuit (given by "game.qasm") to produce the next state
  - each possible measured state has a corresponding ASCII output (stored in "outputs.json")
 
-<!--![Pauli the Excluder](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/pauli.png?raw=true)-->
+![Pauli the Excluder](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/pauli.png?raw=true)
 <!--![The Unitary Operator](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/operator.png?raw=true)-->
 <!--![The Infinite Potential Well](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/well.png?raw=true)-->
-![The Entangler](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/entang.png?raw=true)
+<!--![The Entangler](https://github.com/lumorti/The-Quantum-Tunnels/blob/master/images/entang.png?raw=true)-->
+
+### Dependencies
+
+Requires Python and ![Qiskit](https://qiskit.org/), 
+
+Qiskit can be installed easily using pip:
+```bash
+pip3 install qiskit
+```
 
 ### Usage 
-Download the latest release ![here]("TODO") for your platform, then run it.
 
-Alternatively you can clone this repository and then run "run.py" as a Python script, which requires having Python3 and qiskit installed and set up.
+Download the latest release ![here](https://github.com/Lumorti/The-Quantum-Tunnels/releases/), or alternatively clone this repository.
+
+Then run "run.py" as you would a normal Python script, e.g. on Linux:
+```bash
+python3 run.py
+```
 
 ### Achievements
 
