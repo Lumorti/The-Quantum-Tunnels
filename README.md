@@ -27,7 +27,7 @@ But don't worry, you can play along at home using a simulator!
 
 ### Dependencies
 
-Requires Python and ![Qiskit](https://qiskit.org/), 
+Requires Python and [Qiskit](https://qiskit.org/), 
 
 Qiskit can be installed easily using pip:
 ```bash
@@ -36,7 +36,7 @@ pip3 install qiskit
 
 ### Usage 
 
-Download the latest release ![here](https://github.com/Lumorti/The-Quantum-Tunnels/releases/), or alternatively clone this repository.
+Download the latest release [here](https://github.com/Lumorti/The-Quantum-Tunnels/releases/), or alternatively clone this repository.
 
 Then run "run.py" as you would a normal Python script, e.g. on Linux:
 ```bash
